@@ -11,6 +11,8 @@
 		1721F829292BBADB00167A9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721F828292BBADB00167A9F /* ContentView.swift */; };
 		1721F82B292BBADE00167A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1721F82A292BBADE00167A9F /* Assets.xcassets */; };
 		1721F82E292BBADE00167A9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1721F82D292BBADE00167A9F /* Preview Assets.xcassets */; };
+		1721F836292BBEF200167A9F /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1721F835292BBEF200167A9F /* Pacifico-Regular.ttf */; };
+		1721F838292BBF1F00167A9F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1721F837292BBF1F00167A9F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1721F828292BBADB00167A9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1721F82A292BBADE00167A9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1721F82D292BBADE00167A9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1721F835292BBEF200167A9F /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		1721F837292BBF1F00167A9F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		1721F825292BBADB00167A9F /* KarenCard */ = {
 			isa = PBXGroup;
 			children = (
+				1721F834292BBE9B00167A9F /* fonts */,
 				1721F826292BBADB00167A9F /* KarenCardApp.swift */,
 				1721F828292BBADB00167A9F /* ContentView.swift */,
 				1721F82A292BBADE00167A9F /* Assets.xcassets */,
 				1721F82C292BBADE00167A9F /* Preview Content */,
+				1721F837292BBF1F00167A9F /* Launch Screen.storyboard */,
 			);
 			path = KarenCard;
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				1721F82D292BBADE00167A9F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1721F834292BBE9B00167A9F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1721F835292BBEF200167A9F /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1721F836292BBEF200167A9F /* Pacifico-Regular.ttf in Resources */,
 				1721F82E292BBADE00167A9F /* Preview Assets.xcassets in Resources */,
+				1721F838292BBF1F00167A9F /* Launch Screen.storyboard in Resources */,
 				1721F82B292BBADE00167A9F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
