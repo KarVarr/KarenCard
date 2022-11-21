@@ -27,21 +27,9 @@ struct ContentView: View {
                     .font(.system(size: 25))
                 Divider()
                 
-                
-                
-                ZStack {
-                    RoundedRectangle(cornerRadius: 30)
-                        .frame( height: 50)
-                        .foregroundColor(.white)
-                    HStack {
-                        Image(systemName: "phone.fill")
-                            .foregroundColor(.green)
-                        Text("+7 999 999 99 99")
-                    }
-                    
-                }
-                .padding(.all)
-                
+                //MARK: - infoView
+                InfoView(text: "+7 999 999 99 99", imageName: "phone.fill")
+                InfoView(text: "email@facebook.com", imageName: "envelope.fill")
                 
             }
         }
@@ -53,3 +41,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
