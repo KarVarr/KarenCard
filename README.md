@@ -4,6 +4,6 @@
 
 ---
 
-<img src="EmojiGame/KarenCardSwiftUI.png" alt="img" width="500"/>
+<img src="KarenCard/KarenCardSwiftUI.png" alt="img" width="500"/>
 
   
