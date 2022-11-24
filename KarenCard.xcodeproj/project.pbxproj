@@ -14,6 +14,7 @@
 		1721F836292BBEF200167A9F /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1721F835292BBEF200167A9F /* Pacifico-Regular.ttf */; };
 		1721F838292BBF1F00167A9F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1721F837292BBF1F00167A9F /* Launch Screen.storyboard */; };
 		176D9541292BD318001F3431 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D9540292BD318001F3431 /* InfoView.swift */; };
+		176D9584292FD598001F3431 /* KarenCardSwiftUI.png in Resources */ = {isa = PBXBuildFile; fileRef = 176D9583292FD598001F3431 /* KarenCardSwiftUI.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		1721F835292BBEF200167A9F /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		1721F837292BBF1F00167A9F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		176D9540292BD318001F3431 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		176D9583292FD598001F3431 /* KarenCardSwiftUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KarenCardSwiftUI.png; sourceTree = "<group>"; };
+		176D9586292FD61D001F3431 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 				1721F834292BBE9B00167A9F /* fonts */,
 				1721F826292BBADB00167A9F /* KarenCardApp.swift */,
 				1721F828292BBADB00167A9F /* ContentView.swift */,
+				176D9586292FD61D001F3431 /* README.md */,
 				176D9540292BD318001F3431 /* InfoView.swift */,
 				1721F82A292BBADE00167A9F /* Assets.xcassets */,
+				176D9583292FD598001F3431 /* KarenCardSwiftUI.png */,
 				1721F82C292BBADE00167A9F /* Preview Content */,
 				1721F837292BBF1F00167A9F /* Launch Screen.storyboard */,
 			);
@@ -144,6 +149,7 @@
 			files = (
 				1721F836292BBEF200167A9F /* Pacifico-Regular.ttf in Resources */,
 				1721F82E292BBADE00167A9F /* Preview Assets.xcassets in Resources */,
+				176D9584292FD598001F3431 /* KarenCardSwiftUI.png in Resources */,
 				1721F838292BBF1F00167A9F /* Launch Screen.storyboard in Resources */,
 				1721F82B292BBADE00167A9F /* Assets.xcassets in Resources */,
 			);
